@@ -1,6 +1,7 @@
 # SHOPPING CART BACKEND
 
-Shopping cart backend made in NodeJS, Sequelize and ExpressJS.
+Shopping cart backend made in NodeJS, ExpressJS, Sequelize and MySQL.
+You can find the frontend project made in Ionic 4 here: https://github.com/JoseAlbertoVazq/shopping-cart-ionic
 
 ## Install
 
