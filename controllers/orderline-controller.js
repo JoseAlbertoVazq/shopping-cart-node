@@ -38,6 +38,7 @@ module.exports = {
                     }
                     let productDetails = {};
                     productDetails.name = product.name;
+                    productDetails.price = product.price;
                     productDetails.quantity = element.quantity;
                     response.details.push(productDetails);
                     if (i == found.length) {
