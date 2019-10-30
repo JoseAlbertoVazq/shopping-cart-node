@@ -78,6 +78,11 @@ If you want to go deeper in the project routes, you can always go to /routes and
 
 Any doubts, any suggestion, any request or any invitation to a good dinner, you can write an issue and I will read it as soon as I can.
 
+## POSTMAN COLLECTION
+
+Here you have a Postman collection with all requests:
+https://www.getpostman.com/collections/5826ca3235abe990f2cd
+
 ## Autor
 
 José Alberto Vázquez López
