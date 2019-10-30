@@ -1,6 +1,6 @@
 # SHOPPING CART BACKEND
 
-Shopping cart backend made in NodeJS.
+Shopping cart backend made in NodeJS, Sequelize and ExpressJS.
 
 ## Install
 
