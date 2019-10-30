@@ -54,7 +54,6 @@ Now we can run our application.
 npm start
 ```
 # HAVE YOU CHANGED THE STRUCTURE OR TABLES IN DATABASE?
-Si te han avisado de que se han realizado cambios en la base de datos, bien por la estructura de las tablas (migraciones), o por los datos precargados (seeders), tienes que volver a ejecutar los comandos anteriores, PERO ANTES EJECUTA ESTE COMANDO:
 
 If you add new models and migrations, or deleted any table, or you just filled your database with lots of garbage, you can do all the previous steps BUT YOU HAVE TO RUN FIRST THE NEXT COMMAND:
 ```bash
