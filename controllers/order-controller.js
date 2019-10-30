@@ -3,6 +3,11 @@ const Op = Sequelize.Op;
 const Order = require('../models').Order;
 const OrderLine = require('../models').OrderLine;
 module.exports = {
+    /**
+ * Find all orders in your database
+ * @param {*} req from express
+ * @param {*} res from express, we use it to send a HttpResponse
+ */
     getAll(req, res) {
         Order.findAll({
             attributes: {
@@ -15,6 +20,11 @@ module.exports = {
             return res.status(200).send(orders)
         }).catch((error) => res.status(500).send(error));
     },
+    /**
+     * Create a new Order, including the Order Line with the order's details.
+     * @param {*} req from express, we use it to get the body request
+     * @param {*} res from express, we use it to send a HttpResponse
+     */
     createOrder(req, res) {
         if (!req.body.products) {
             return res.status(400).send();

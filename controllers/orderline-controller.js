@@ -5,6 +5,12 @@ const OrderLine = require('../models').OrderLine;
 const Product = require('../models').Product;
 
 module.exports = {
+    /**
+     * Get the details of an order, by composing JSON response which includes an array of
+     * objects, that have the product's id and the quantity of that product in the order
+     * @param {*} req 
+     * @param {*} res 
+     */
     seeDetails(req, res) {
         if (!req.params.idOrder) {
             return res.status(400).end();
