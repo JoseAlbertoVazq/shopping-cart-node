@@ -26,7 +26,7 @@ module.exports = {
      * @param {*} res from express, we use it to send a HttpResponse
      */
     createOrder(req, res) {
-        if (!req.body.products) {
+        if (!req.body) {
             return res.status(400).send();
         }
         Order.create({
@@ -37,7 +37,7 @@ module.exports = {
             }
             let arrayOfPromises = [];
             let products = [];
-            products = req.body.products;
+            products = req.body;
             products.forEach(p => {
                 arrayOfPromises.push(createOrderLine(p, orderCreated));
             })
