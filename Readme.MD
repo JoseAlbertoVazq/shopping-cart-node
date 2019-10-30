@@ -2,7 +2,7 @@
 
 Shopping cart backend made in NodeJS.
 
-## Instalación
+## Install
 
 Remember! You have to execute the following command after cloning this repository:
 
