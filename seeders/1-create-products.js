@@ -13,6 +13,10 @@ module.exports = {
         {
             name: 'Pizza Quattro Formaggi',
             price: 8
+        },
+        {
+            name: 'Vegan Pizza',
+            price: 6
         }], {});
     },
 
